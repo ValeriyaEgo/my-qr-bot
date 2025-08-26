@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0c0c"/>
+      <stop offset="50%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0c0c0c"/>
+    </linearGradient>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Brand Logo (Large) -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="60" height="60" fill="url(#brandGradient)" rx="8"/>
+    <rect x="240" y="0" width="60" height="60" fill="url(#brandGradient)" rx="8"/>
+    <rect x="0" y="240" width="60" height="60" fill="url(#brandGradient)" rx="8"/>
+    <rect x="120" y="120" width="80" height="80" fill="url(#brandGradient)" rx="16"/>
+    <rect x="140" y="140" width="40" height="40" fill="white" rx="8"/>
+    <rect x="10" y="10" width="40" height="40" fill="white" rx="4"/>
+    <rect x="250" y="10" width="40" height="40" fill="white" rx="4"/>
+    <rect x="10" y="250" width="40" height="40" fill="white" rx="4"/>
+    <rect x="100" y="30" width="120" height="20" fill="url(#brandGradient)" rx="10"/>
+    <rect x="30" y="100" width="20" height="120" fill="url(#brandGradient)" rx="10"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="500" y="200" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900" fill="white">
+    Free QR Code Generator
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="500" y="260" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="600" fill="url(#brandGradient)">
+    Unlimited • Instant • No Registration
+  </text>
+  
+  <!-- Description -->
+  <text x="500" y="320" font-family="Inter, Arial, sans-serif" font-size="28" fill="#a3a3a3">
+    Generate unlimited QR codes on Telegram
+  </text>
+  <text x="500" y="360" font-family="Inter, Arial, sans-serif" font-size="28" fill="#a3a3a3">
+    No watermarks • No expiration • 100% Free
+  </text>
+  
+  <!-- Call to Action -->
+  <rect x="500" y="420" width="300" height="60" fill="url(#brandGradient)" rx="30"/>
+  <text x="650" y="460" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="white" text-anchor="middle">
+    Try Now on Telegram
+  </text>
+  
+  <!-- Website URL -->
+  <text x="500" y="540" font-family="Inter, Arial, sans-serif" font-size="24" fill="#666">
+    myqrbot.com
+  </text>
+</svg>

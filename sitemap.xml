@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://myqrbot.com</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Include images for better SEO -->
+    <image:image>
+      <image:loc>https://myqrbot.com/og-image.svg</image:loc>
+      <image:title>Free QR Code Generator Bot - Unlimited Telegram QR Codes</image:title>
+      <image:caption>Generate unlimited free QR codes instantly on Telegram</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>
